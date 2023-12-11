@@ -7,6 +7,67 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color: antiquewhite;
+}
+
+a {
+  padding-bottom: 5px;
+  border-bottom: 3px solid rgb(170, 187, 204);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(36 37 39);
+  color: rgb(170, 187, 204);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header h1 {
+  font-size: 40px;
+  background-color: rgb(170, 187, 204);
+  color: rgb(36 37 39);
+  padding-left: 45px;
+  padding-right: 10px;
+}
+
+.header nav {
+  font-size: 25px;
+  padding-right: 25px;
+}
+
+.header nav ul {
+  list-style-type: none;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+nav a {
+  color: rgb(170, 187, 204);
+  text-decoration: none;
+}
+
+.hero-banner {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/02-hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: right;
+}
+
+.hero-banner h2 {
+  display: inline-block;
+  font-size: 35px;
+  background-color: rgb(170, 187, 204);
+  color: rgb(36 37 39);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 h1,
