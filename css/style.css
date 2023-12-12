@@ -176,7 +176,7 @@ li {
   background-image: url("../images/02-run-buddy.jpg");
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   h1 {
     margin: 0;
     padding: 0;
@@ -196,8 +196,63 @@ li {
   }
 
   .hero-banner {
-    display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .hero-banner img {
+    display: none;
+  }
+
+  .page-section {
+    display: block;
+  }
+
+  .page-section h2 {
+    margin: 15px;
+    padding: 0px;
+    border-bottom: 5px solid rgb(83, 99, 114);
+    text-align: left;
+  }
+
+  .section-content {
+    border-left: 0;
+    padding: 0px 15px;
+  }
+
+  .project {
+    margin-bottom: 15px;
+  }
+
+  .project div {
+    padding-bottom: 0;
+  }
+
+  #surf {
+    height: 350px;
+    background-position: center;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .header {
+    display: block;
+    margin: 0;
+    padding-top: 0;
+  }
+
+  .hero-banner {
     justify-content: center;
   }
 
