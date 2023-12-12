@@ -7,12 +7,51 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  background-color: antiquewhite;
+  background-color: white;
 }
 
 a {
   padding-bottom: 5px;
   border-bottom: 3px solid rgb(170, 187, 204);
+  color: rgb(170, 187, 204);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 40px;
+  background-color: rgb(170, 187, 204);
+  color: rgb(36 37 39);
+  padding-left: 45px;
+  padding-right: 10px;
+}
+
+h3 {
+  margin: 0px;
+  padding: 10px 10px 0 10px;
+  font-size: 20px;
+  background-color: rgb(170, 187, 204);
+}
+
+h4 {
+  margin: 0px;
+  padding: 0 10px 10px 10px;
+  font-size: 14px;
+  background-color: rgb(170, 187, 204);
+}
+
+nav {
+  padding-right: 25px;
+}
+
+ul {
+  font-size: 25px;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .header {
@@ -24,40 +63,13 @@ a {
   padding-bottom: 10px;
 }
 
-.header h1 {
-  font-size: 40px;
-  background-color: rgb(170, 187, 204);
-  color: rgb(36 37 39);
-  padding-left: 45px;
-  padding-right: 10px;
-}
-
-.header nav {
-  font-size: 25px;
-  padding-right: 25px;
-}
-
-.header nav ul {
-  list-style-type: none;
-}
-
-.header nav ul li {
-  display: inline-block;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-nav a {
-  color: rgb(170, 187, 204);
-  text-decoration: none;
-}
-
 .hero-banner {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
   height: 300px;
   width: 100%;
-  padding: 25px 50px;
+  padding: 20px 40px;
   margin-bottom: 25px;
   background-image: url("../images/02-hero-bg.jpg");
   background-size: cover;
@@ -78,16 +90,88 @@ nav a {
   border-radius: 50%;
 }
 
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+.page-section {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: 45px 25px;
 }
 
-p {
-  margin: 0;
+.page-section h2 {
+  font-size: 50px;
+  text-align: right;
+  padding: 30px;
+  color: rgb(83, 99, 114);
+  }
+
+.section-content {
+  border-left: 5px solid rgb(83, 99, 114);
+  padding: 30px;
+  font-size: 20px;
 }
+
+.section-content ul {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  padding: 25px 0px 25px 0px;
+}
+
+.project {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  color: rgb(36 37 39);
+  border: 5px solid rgb(170, 187, 204);
+}
+
+.section-content a {
+  color: rgb(83, 99, 114);
+}
+
+.project div {
+  display: inline-block;
+  padding-bottom: 25px;
+}
+
+.two-projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#surf {
+  height: 550px;
+  width: 100%;
+  background-image: url("../images/02-portfolio-4.jpg"); 
+}
+
+#led {
+  height: 150px;
+  width: 49%;
+  background-image: url("../images/02-portfolio-1.jpg");
+}
+
+#calculator {
+  height: 150px;
+  width: 49%;
+  background-position: center;
+  background-size: 500px;
+  background-image: url("../images/02-portfolio-2.jpg");
+}
+
+#pastel {
+  height: 150px;
+  width: 49%;
+  background-position-x: left;
+  background-size: 700px;
+  background-image: url("../images/02-portfolio-3.jpg");
+}
+
+#run {
+  height: 150px;
+  width: 49%;
+  background-position-x: left;
+  background-size: 550px;
+  background-image: url("../images/02-run-buddy.jpg");
+}
+
