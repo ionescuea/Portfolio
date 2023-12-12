@@ -122,6 +122,7 @@ li {
   justify-content: space-between;
   color: rgb(36 37 39);
   border: 5px solid rgb(170, 187, 204);
+  margin-bottom: 30px;
 }
 
 .section-content a {
@@ -202,5 +203,52 @@ li {
 
   .hero-banner img {
     display: none;
+  }
+
+  .page-section {
+    display: block;
+  }
+
+  .page-section h2 {
+    margin: 15px;
+    padding: 0px;
+    border-bottom: 5px solid rgb(83, 99, 114);
+    text-align: left;
+  }
+
+  .section-content {
+    border-left: 0;
+    padding: 0px 15px;
+  }
+
+  .two-projects {
+    display: block;
+  }
+
+  .project {
+    margin-bottom: 15px;
+  }
+
+  .project div {
+    padding-bottom: 0;
+  }
+
+  .section-content ul {
+    display: block;
+  }
+
+  .section-content li {
+    display: block;
+    margin: 15px;
+  }
+
+  #surf {
+    height: 150px;
+  }
+
+  #led, #calculator, #pastel, #run {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
