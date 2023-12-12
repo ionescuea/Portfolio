@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+/* main tags */
 body {
   margin: 0;
   padding: 0;
@@ -54,6 +54,7 @@ li {
   margin-right: 15px;
 }
 
+/* classes */
 .header {
   display: flex;
   justify-content: space-between;
@@ -140,6 +141,7 @@ li {
   justify-content: space-between;
 }
 
+/* ids */
 #surf {
   height: 550px;
   width: 100%;
@@ -176,6 +178,7 @@ li {
   background-image: url("../images/02-run-buddy.jpg");
 }
 
+/* media queries */
 @media only screen and (max-width: 1024px) {
   h1 {
     margin: 0;
